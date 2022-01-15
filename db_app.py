@@ -247,6 +247,7 @@ def menu(Data):
             elif c == 6:
                 Data.readData()
             elif c == 7:
+                print("----Don't use it for SELECT queries----")
                 fname = input("Enter the name of the SQL file:\n")
                 if len(fname) != 0:
                     Data.executeSQLFile(fname)
